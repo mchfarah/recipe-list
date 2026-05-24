@@ -1,0 +1,117 @@
+/* base */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* header */
+
+.cabecalho {
+  background-color: #e63946;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.cabecalho h1 {
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
+
+.cabecalho p {
+  font-size: 1rem;
+  opacity: 0.85;
+}
+
+/* main */
+
+.conteudo {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* recipes */
+
+.gradeReceitas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr_));
+  gap: 24px;
+}
+
+/* recipe card */
+
+.cardReceita {
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.cardReceita:hover {
+  transform: translateY(-4px);
+}
+
+.imagemReceita {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cardInfo {
+  padding: 16px;
+}
+
+/* category tag */
+
+.tag {
+  background-color: #fff3f3;
+  color: #e63946;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+/* recipe title n description */
+
+.cardInfo h2 {
+  font-size: 1.1rem;
+  margin: 10px 0 6px;
+}
+
+.cardInfo p {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* card footer */
+
+.cardRodape {
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+  font-size: 0.85rem;
+  color: #999;
+}
+
+/* page footer */
+
+.rodape {
+  text-align: center;
+  padding: 30px;
+  margin-top: 40px;
+  color: #999;
+  font-size: 0.9rem;
+}

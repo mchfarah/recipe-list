@@ -185,3 +185,34 @@ body {
   text-decoration: none;
   color: inherit;
 }
+
+/* Filter buttons */
+
+.filterButtons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.filterBtn {
+  backgroun-color: white;
+  color: #333;
+  border: 2px solid #e0e0e0;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.filterBtn:hover {
+  background-color: #e63946;
+  color: #e63946;
+}
+
+.filterBtn.active {
+  background-color: #e63946;
+  border-color: #e63946;
+  color: white;
+}

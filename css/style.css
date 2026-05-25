@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   background-color: #f5f5f5;
   color: #333;
 }
@@ -115,3 +115,74 @@ body {
   color: #999;
   font-size: 0.9rem;
 }
+
+/* Recipe detail page */
+
+.recipeDetails {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.recipeDetailImage {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.recipeInfo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.recipeMeta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.recipeBody {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.ingredients h2,
+.instructions h2 {
+  font-size: 1.3rem;
+  margin-bottom: 16px;
+  color: #e63946;
+}
+
+.ingredients ul,
+.ingredients ol {
+  padding-left: 20px;
+  line-height: 2;
+  color: #444;
+}
+
+.backButton {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-bottom: 16px;
+  opacity: 0.85;
+}
+
+.backButton:hover {
+  opacity: 1;
+}
+
+/* Card link */
+
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+}
+

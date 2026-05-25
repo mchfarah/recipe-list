@@ -1,3 +1,10 @@
+/* Variables */
+
+:root {
+  --color-primary: #2d6a4f;
+  --color-primary-light: #f0f7f4;
+}
+
 /* Reset and base */
 
 * {
@@ -15,7 +22,7 @@ body {
 /* Header */
 
 .header {
-  background-color: #e63946;
+  background-color: var(--color-primary);
   color: white;
   text-align: center;
   padding: 40px 20px;
@@ -74,8 +81,8 @@ body {
 /* Category tag */
 
 .tag {
-  background-color: #fff3f3;
-  color: #e63946;
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
   font-size: 0.75rem;
   font-weight: bold;
   padding: 4px 10px;
@@ -156,7 +163,7 @@ body {
 .instructions h2 {
   font-size: 1.3rem;
   margin-bottom: 16px;
-  color: #e63946;
+  color: var(--color-primary);
 }
 
 .ingredients ul,
@@ -196,7 +203,7 @@ body {
 }
 
 .filterBtn {
-  backgroun-color: white;
+  background-color: white;
   color: #333;
   border: 2px solid #e0e0e0;
   padding: 8px 20px;
@@ -207,12 +214,12 @@ body {
 }
 
 .filterBtn:hover {
-  background-color: #e63946;
-  color: #e63946;
+  border-color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 .filterBtn.active {
-  background-color: #e63946;
-  border-color: #e63946;
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
   color: white;
 }

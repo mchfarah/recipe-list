@@ -1,8 +1,8 @@
 # Recipe List | Lista de Receitas
 
-## 🇺🇸 English
+## English
 
-A web page with culinary recipe cards, each with its own detail page including ingredients and step-by-step instructions. Built to practice semantic HTML, modern CSS and JavaScript.
+A web page with culinary recipe cards, each with its own detail page including ingredients and step-by-step instructions. Built to practice HTML, modern CSS and JavaScript.
 
 ### Live Demo
 
@@ -30,7 +30,7 @@ Open the `index.html` file in your browser or access the live demo above.
 
 ---
 
-## 🇧🇷 Português
+## Português
 
 Página web com cards de receitas culinárias, cada uma com sua própria página de detalhes contendo ingredientes e modo de preparo. Desenvolvido para praticar HTML semântico, CSS moderno e JavaScript.
 
@@ -62,4 +62,4 @@ Abra o arquivo `index.html` no navegador ou acesse a demo acima.
 
 ## Author | Autor
 
-Michel Farah — [GitHub](https://github.com/mchfarah)
+Michel Farah [GitHub](https://github.com/mchfarah)

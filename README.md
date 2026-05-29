@@ -32,7 +32,7 @@ Open the `index.html` file in your browser or access the live demo above.
 
 ## Português
 
-Página web com cards de receitas culinárias, cada uma com sua própria página de detalhes contendo ingredientes e modo de preparo. Desenvolvido para praticar HTML semântico, CSS moderno e JavaScript.
+Página com cards de receitas culinárias, cada uma com sua própria página de detalhes contendo ingredientes e modo de preparo. Desenvolvido para praticar HTML, CSS moderno e JavaScript.
 
 ### Demo
 

@@ -116,11 +116,74 @@ body {
 /* Page footer */
 
 .footer {
-  text-align: center;
-  padding: 30px;
-  margin-top: 40px;
+  background-color: #1a2e25;
+  color: #ccc;
+  margin-top: 60px;
+  padding: 40px 20px 20px;
+}
+
+.footerContent {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 40px;
+}
+
+.footerBrand h3 {
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footerBrand p {
+  font-size: 0.85rem;
+  line-height: 1.6;
   color: #999;
-  font-size: 0.9rem;
+}
+
+.footerCategories h4,
+.footerAuthor h4 {
+  color: white;
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+}
+
+.footerCategories ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.footerCategories ul li {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+.footerAuthor p {
+  font-size: 0.85rem;
+  color: #999;
+  margin-bottom: 8px;
+}
+
+.footerAuthor a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.footerAuthor a:hover {
+  opacity: 0.8;
+}
+
+.footerBottom {
+  max-width: 1100px;
+  margin: 30px auto 0;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  font-size: 0.8rem;
+  color: #666;
 }
 
 /* Recipe detail page */

@@ -9,7 +9,9 @@ filterButtons.forEach((button) => {
     const filter = button.dataset.filter;
 
     recipeCards.forEach((card) => {
-      if (filter === "all" || card.dataset.category === filter) {
+      const categories = card.dataset.category.split(" ");
+
+      if (filter === "all" || categories.includes(filter)) {
         card.parentElement.style.display = "block";
       } else {
         card.parentElement.style.display = "none";

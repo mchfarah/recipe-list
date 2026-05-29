@@ -19,3 +19,17 @@ filterButtons.forEach((button) => {
     });
   });
 });
+
+const backToTop = document.getElementById("back2Top");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    backToTop.classList.add("visible");
+  } else {
+    backToTop.classList.remove("visible");
+  }
+});
+
+backToTop.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});

@@ -256,3 +256,31 @@ body {
   color: #333;
   font-size: 0.95rem;
 }
+
+/* Back to top button */
+
+.back2Top {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  opacity: 0;
+  transition:
+    opacity 0.3s,
+    transform 0.2s;
+}
+
+.back2Top.hover {
+  transform: translateY(-4px);
+}
+
+.back2Top.visible {
+  opacity: 1;
+}
